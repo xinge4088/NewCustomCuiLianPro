@@ -7,9 +7,7 @@
 
 name: cuilian
 
-on:
-  release:
-    types: [created]
+on: [ pull_request, workflow_dispatch ]
 
 jobs:
   build:
